@@ -21,5 +21,8 @@
     <ClCompile Include="Magazin.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Elev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,0 +1,7 @@
+1,18,Andrei Popescu,8.5
+2,19,Ioana Ionescu,9.0
+3,17,Mihai Georgescu,7.5
+4,18,Elena Vasilescu,8.0
+5,19,Cristian Dumitrescu,9.2
+6,17,Anca Marinescu,8.7
+7,18,David Stanescu,7.9
