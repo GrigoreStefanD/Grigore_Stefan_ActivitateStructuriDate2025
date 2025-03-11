@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Cazarma.c" />
     <ClCompile Include="Cinema.c" />
     <ClCompile Include="Elev.c" />
     <ClCompile Include="Ferma.c" />
