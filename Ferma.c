@@ -16,13 +16,19 @@ struct Animal
     struct Animal* precedent; // pentru lista dubl?
 };
 
-void afisareListaSimpla(struct Animal* cap) {
-    struct Animal* curent = cap;
-    while (curent != NULL) {
-        printf("Nume: %s, varsta: %d\n", curent->nume, curent->varsta);
-        curent = curent->urmator;
-    }
+
+struct Animal* creareAnimal(char* nume, int varsta) 
+{
+    struct Animal* animal = (struct Animal*)malloc(sizeof(struct Animal));
+    strcpy(animal->nume, nume);
+    animal->varsta = varsta;
+    animal->urmator = NULL;
+    animal->precedent = NULL;
+    return animal;
+
 }
+
+
 
 
 
