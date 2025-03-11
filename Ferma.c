@@ -1,12 +1,7 @@
-
-
-
 #define _CRT_SECURE_NO_WARNINGS 
 
 #include <stdio.h>
-
 #include <stdlib.h>
-
 #include <string.h>
 
 struct Animal
@@ -18,6 +13,7 @@ struct Animal
     struct Animal* precedent;
 };
 
+
 struct Animal* creareAnimal(char* nume, int varsta)
 {
     struct Animal* animal = (struct Animal*)malloc(sizeof(struct Animal));
@@ -28,7 +24,9 @@ struct Animal* creareAnimal(char* nume, int varsta)
     return animal;
 }
 
+
 void afisareListaSimpla(struct Animal* cap)
+
 {
     struct Animal* curent = cap;
     while (curent != NULL)
@@ -43,6 +41,7 @@ void afisareListaSimpla(struct Animal* cap)
 
 int main()
 {
+
 
     return 0;
 }
