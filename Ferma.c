@@ -26,7 +26,15 @@ struct Animal* creareAnimal(char* nume, int varsta)
     return animal;
 }
 
-
+void afisareListaSimpla(struct Animal* cap)
+{
+    struct Animal* curent = cap;
+    while (curent != NULL)
+    {
+        printf("Nume: %s, Vârsta: %d\n", curent->nume, curent->varsta);
+        curent = curent->urmator;
+    }
+}
 
 
 
