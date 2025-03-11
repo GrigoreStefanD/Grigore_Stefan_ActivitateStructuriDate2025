@@ -2,17 +2,16 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+
 #include <string.h>
 
 struct Animal
 {
     char nume[50];
     int varsta;
-
     struct Animal* urmator; 
-    struct Animal* precedent;
+    struct Animal* precedent; 
 };
-
 
 struct Animal* creareAnimal(char* nume, int varsta)
 {
