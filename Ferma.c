@@ -12,8 +12,8 @@ struct Animal
 {
     char nume[50];
     int varsta;
-    struct Animal* urmator; // pentru lista simpl?
-    struct Animal* precedent; // pentru lista dubl?
+    struct Animal* urmator; 
+    struct Animal* precedent; 
 };
 
 struct Animal* creareAnimal(char* nume, int varsta)
@@ -31,7 +31,7 @@ void afisareListaSimpla(struct Animal* cap)
     struct Animal* curent = cap;
     while (curent != NULL)
     {
-        printf("Nume: %s, Vârsta: %d\n", curent->nume, curent->varsta);
+        printf("Nume: %s, VÃ¢rsta: %d\n", curent->nume, curent->varsta);
         curent = curent->urmator;
     }
 }
