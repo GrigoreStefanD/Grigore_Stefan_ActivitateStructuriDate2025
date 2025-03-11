@@ -54,18 +54,24 @@ void afisareListaDubla(struct Animal* cap)
 int main()
 {
     struct Animal* ferma[3];
-    ferma[0] = creareAnimal("vaca", 5);
-    ferma[1] = creareAnimal("oaie", 3);
-    ferma[2] = creareAnimal("porc", 2);
 
-    struct Animal* capListaSimpla = ferma[0];
+    ferma[0] = creareAnimal("vaca", 7);
+    ferma[1] = creareAnimal("oaie", 2);
+    ferma[2] = creareAnimal("porc", 1);
+
+
+    struct Animal* capListaSimpla = ferma[0]
+        ;
     ferma[0]->urmator = ferma[1];
     ferma[1]->urmator = ferma[2];
+
 
     printf("afisare lista simpla:\n");
     afisareListaSimpla(capListaSimpla);
 
+
     struct Animal* capListaDubla = ferma[0];
+
     ferma[0]->urmator = ferma[1];
     ferma[1]->precedent = ferma[0];
     ferma[1]->urmator = ferma[2];
@@ -74,7 +80,9 @@ int main()
     printf("\nafisare lista dubla:\n");
     afisareListaDubla(capListaDubla);
 
-    for (int i = 0; i < 3; i++) {
+
+    for (int i = 0; i < 3; i++)
+    {
         free(ferma[i]);
     }
 
