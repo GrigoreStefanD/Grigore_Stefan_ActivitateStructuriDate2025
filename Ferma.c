@@ -16,6 +16,21 @@ struct Animal
     struct Animal* precedent; // pentru lista dubl?
 };
 
+struct Animal* creareAnimal(char* nume, int varsta)
+{
+    struct Animal* animal = (struct Animal*)malloc(sizeof(struct Animal));
+    strcpy(animal->nume, nume);
+    animal->varsta = varsta;
+    animal->urmator = NULL;
+    animal->precedent = NULL;
+    return animal;
+}
+
+
+
+
+
+
 int main()
 {
 
