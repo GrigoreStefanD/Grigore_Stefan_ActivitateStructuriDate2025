@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="Cinema.c" />
     <ClCompile Include="Elev.c" />
+    <ClCompile Include="Ferma.c" />
     <ClCompile Include="Magazin.c" />
     <ClCompile Include="TestGitHub.c" />
   </ItemGroup>

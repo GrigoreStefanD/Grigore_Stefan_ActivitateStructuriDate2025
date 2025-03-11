@@ -27,5 +27,8 @@
     <ClCompile Include="Cinema.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Ferma.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
