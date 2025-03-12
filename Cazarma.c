@@ -49,3 +49,43 @@ void sterge_soldat(int id) {
 }
 
 
+int main() {
+    int optiune, id, varsta;
+    char nume[50];
+
+    do {
+        printf("1. Adauga soldat\n");
+        printf("2. Afiseaza soldati\n");
+        printf("3. Sterge soldat\n");
+        printf("4. Iesire\n");
+        printf("Alege o optiune: ");
+        scanf("%d", &optiune);
+
+        switch (optiune) {
+        case 1:
+            printf("ID: ");
+            scanf("%d", &id);
+            printf("Nume: ");
+            scanf("%s", nume);
+            printf("Varsta: ");
+            scanf("%d", &varsta);
+            adauga_soldat(id, nume, varsta);
+            break;
+        case 2:
+            afiseaza_soldati();
+            break;
+        case 3:
+            printf("ID de sters: ");
+            scanf("%d", &id);
+            sterge_soldat(id);
+            break;
+        case 4:
+            printf("Iesire din program.\n");
+            break;
+        default:
+            printf("Optiune invalida.\n");
+        }
+    } while (optiune != 4);
+
+    return 0;
+}
