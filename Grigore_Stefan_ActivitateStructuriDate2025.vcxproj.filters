@@ -33,5 +33,8 @@
     <ClCompile Include="Cazarma.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Gradinita.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
