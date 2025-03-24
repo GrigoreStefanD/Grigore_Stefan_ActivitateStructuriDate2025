@@ -25,6 +25,7 @@
     <ClCompile Include="Ferma.c" />
     <ClCompile Include="Gradinita.c" />
     <ClCompile Include="Magazin.c" />
+    <ClCompile Include="Masina.c" />
     <ClCompile Include="TestGitHub.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

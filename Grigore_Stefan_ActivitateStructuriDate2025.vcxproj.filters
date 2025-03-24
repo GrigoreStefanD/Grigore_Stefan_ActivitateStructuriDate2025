@@ -36,5 +36,8 @@
     <ClCompile Include="Gradinita.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Masina.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
