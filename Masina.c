@@ -218,6 +218,7 @@ void afisarePreturiMediiImbunatatita(float** matrice, int nrClustere) {
     }
 }
 
+
 void dezalocareMatrice(float*** matrice, int* nrLinii, int* nrColoane) {
     for (int i = 0; i < *nrLinii; i++) {
         free((*matrice)[i]);
@@ -240,9 +241,8 @@ Masina getMasinaDupaID(HashTable ht, int id) {
         }
     }
     Masina m = { -1, 0, 0.0f, NULL, NULL, 0 };
-    return m; 
+    return m;
 }
-
 
 
 Masina getMasinaDupaSoferSiID(HashTable ht, const char* numeSofer, int id) {
@@ -256,8 +256,10 @@ Masina getMasinaDupaSoferSiID(HashTable ht, const char* numeSofer, int id) {
         }
     }
     Masina m = { -1, 0, 0.0f, NULL, NULL, 0 };
-    return m;  
+    return m;
 }
+
+
 
 int main() {
     HashTable ht = citireMasiniDinFisier("masini.txt", 6);
@@ -265,13 +267,13 @@ int main() {
 
     Masina m = getMasinaDupaID(ht, 6);
     if (m.id != -1) {
-        printf("Masina cautata dupa id:\n");
+        printf("Masina caut dupa id:\n");
         afisareMasina(m);
     }
 
     Masina mSofer = getMasinaDupaSoferSiID(ht, "Ionescu", 9);
     if (mSofer.id != -1) {
-        printf("\nMasina cautata dupa sofer si ID:\n");
+        printf("\nMasina caut dupa sofer si ID:\n");
         afisareMasina(mSofer);
     }
 
@@ -282,6 +284,8 @@ int main() {
 
     dezalocareTabelaDeMasini(&ht);
     dezalocareMatrice(&matrice, &nrClustere, &nrClustere);
+
+
 
     return 0;
 }
