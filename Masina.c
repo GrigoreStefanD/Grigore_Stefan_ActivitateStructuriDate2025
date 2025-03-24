@@ -228,6 +228,23 @@ void dezalocareMatrice(float*** matrice, int* nrLinii, int* nrColoane) {
     *nrColoane = 0;
 }
 
+
+Masina getMasinaDupaID(HashTable ht, int id) {
+    for (int i = 0; i < ht.dim; i++) {
+        Nod* current = ht.vector[i];
+        while (current != NULL) {
+            if (current->info.id == id) {
+                return current->info;
+            }
+            current = current->next;
+        }
+    }
+    Masina m = { -1, 0, 0.0f, NULL, NULL, 0 };
+    return m; 
+}
+
+
+
 Masina getMasinaDupaSoferSiID(HashTable ht, const char* numeSofer, int id) {
     for (int i = 0; i < ht.dim; i++) {
         Nod* current = ht.vector[i];
