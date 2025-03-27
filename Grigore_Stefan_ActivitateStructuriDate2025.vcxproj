@@ -23,6 +23,7 @@
     <ClCompile Include="Cinema.c" />
     <ClCompile Include="Elev.c" />
     <ClCompile Include="Ferma.c" />
+    <ClCompile Include="Ghiozdan.c" />
     <ClCompile Include="Gospodarie.c" />
     <ClCompile Include="Gradinita.c" />
     <ClCompile Include="Magazin.c" />
