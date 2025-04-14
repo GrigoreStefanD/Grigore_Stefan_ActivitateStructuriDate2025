@@ -24,10 +24,11 @@
     <ClCompile Include="Elev.c" />
     <ClCompile Include="Ferma.c" />
     <ClCompile Include="Ghiozdan.c" />
-    <ClCompile Include="Gospodarie.c" />
+    <ClCompile Include="%28Task%29Gospodarie.c" />
     <ClCompile Include="Gradinita.c" />
     <ClCompile Include="Magazin.c" />
     <ClCompile Include="Masina.c" />
+    <ClCompile Include="TaskCladireHash.c" />
     <ClCompile Include="TestGitHub.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
