@@ -48,5 +48,8 @@
     <ClCompile Include="TaskCladireHash.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TaskUPU.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
