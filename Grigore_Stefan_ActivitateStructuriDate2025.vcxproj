@@ -29,6 +29,7 @@
     <ClCompile Include="Magazin.c" />
     <ClCompile Include="Masina.c" />
     <ClCompile Include="TaskCladireHash.c" />
+    <ClCompile Include="TaskGestiuneStoc.c" />
     <ClCompile Include="TaskUPU.c" />
     <ClCompile Include="TestGitHub.c" />
   </ItemGroup>

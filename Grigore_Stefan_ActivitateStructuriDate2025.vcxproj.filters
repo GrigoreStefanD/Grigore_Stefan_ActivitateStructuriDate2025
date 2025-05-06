@@ -51,5 +51,8 @@
     <ClCompile Include="TaskUPU.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TaskGestiuneStoc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
