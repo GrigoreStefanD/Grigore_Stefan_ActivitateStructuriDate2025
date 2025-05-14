@@ -60,5 +60,8 @@
     <ClCompile Include="Arbori.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Graf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -27,6 +27,7 @@
     <ClCompile Include="Ghiozdan.c" />
     <ClCompile Include="%28Task%29Gospodarie.c" />
     <ClCompile Include="Gradinita.c" />
+    <ClCompile Include="Graf.c" />
     <ClCompile Include="Magazin.c" />
     <ClCompile Include="Masina.c" />
     <ClCompile Include="TaskCladireHash.c" />
