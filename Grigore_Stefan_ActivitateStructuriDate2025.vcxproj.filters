@@ -63,5 +63,8 @@
     <ClCompile Include="Graf.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Stiva.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

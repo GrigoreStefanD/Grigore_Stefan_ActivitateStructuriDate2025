@@ -30,6 +30,7 @@
     <ClCompile Include="Graf.c" />
     <ClCompile Include="Magazin.c" />
     <ClCompile Include="Masina.c" />
+    <ClCompile Include="Stiva.c" />
     <ClCompile Include="TaskCladireHash.c" />
     <ClCompile Include="TaskGestiuneStoc.c" />
     <ClCompile Include="TaskHeap.c" />
