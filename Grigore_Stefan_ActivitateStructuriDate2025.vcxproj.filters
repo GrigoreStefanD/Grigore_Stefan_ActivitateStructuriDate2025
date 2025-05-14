@@ -57,5 +57,8 @@
     <ClCompile Include="TaskHeap.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Arbori.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
